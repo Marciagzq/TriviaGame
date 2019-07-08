@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Soccer Trivia</title>
+</head>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link type="stylesheet" href="assets/css/style.css">
+
+<body>
+    <div id="main-background">
+        <div id="container">
+
+            <header id="Header">Soccer Trivia</header>
+
+            <h1 id="time-remaining">Time Remaining: <span id="timer">00:00</span></h1>
+
+            <div id="questions">
+                <br>
+                <p>First Question</p>
+
+                <input class="incorrect" type="radio" name="firstquestion" value="1">1
+                <input class="correct" type="radio" name="firstquestion" value="2">1
+                <input class="incorrect" type="radio" name="firstquestion" value="3">1
+                <input class="incorrect" type="radio" name="firstquestion" value="4">1
+
+                <br>
+                <p>Second Question</p>
+
+                <input class="incorrect" type="radio" name="secondquestion" value="1">1
+                <input class="incorrect" type="radio" name="secondquestion" value="2">1
+                <input class="correct" type="radio" name="secondquestion" value="3">1
+                <input class="incorrect" type="radio" name="secondquestion" value="4">1
+
+                <br>
+                <p>Third Question</p>
+
+                <input class="correct" type="radio" name="thirdquestion" value="1">1
+                <input class="incorrect" type="radio" name="thirdquestion" value="2">1
+                <input class="incorrect" type="radio" name="thirdquestion" value="3">1
+                <input class="incorrect" type="radio" name="thirdquestion" value="4">1
+                <br>
+
+                <p>Forth Question</p>
+
+                <input class="correct" type="radio" name="forthquestion" value="1">1
+                <input class="incorrect" type="radio" name="forthquestion" value="2">1
+                <input class="incorrect" type="radio" name="forthquestion" value="3">1
+                <input class="incorrect" type="radio" name="forthquestion" value="4">1
+                <br>
+
+                <p>Fifth Question</p>
+
+                <input class="incorrect" type="radio" name="fifthquestion" value="1">1
+                <input class="incorrect" type="radio" name="fifthquestion" value="2">1
+                <input class="correct" type="radio" name="fifthquestion" value="3">1
+                <input class="incorrect" type="radio" name="fifthquestion" value="4">1
+                <br>
+
+                <p>Sixth Question</p>
+
+                <input class="incorrect" type="radio" name="sixthquestion" value="1">1
+                <input class="incorrect" type="radio" name="sixthquestion" value="2">1
+                <input class="incorrect" type="radio" name="sixthquestion" value="3">1
+                <input class="correct" type="radio" name="sixthquestion" value="4">1
+                <br>
+                <p>Seventh Question</p>
+
+                <input class="incorrect" type="radio" name="seventhquestion" value="1">1
+                <input class="incorrect" type="radio" name="seventhquestion" value="2">1
+                <input class="incorrect" type="radio" name="seventhquestion" value="3">1
+                <input class="correct" type="radio" name="seventhquestion" value="4">1
+                <br>
+                <p>Eigth Question</p>
+
+                <input class="incorrect" type="radio" name="eigthquestion" value="1">1
+                <input class="correct" type="radio" name="eigthquestion" value="2">1
+                <input class="incorrect" type="radio" name="eigthquestion" value="3">1
+                <input class="incorrect" type="radio" name="eigthquestion" value="4">1
+                <br>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <div id="cointainer-Answers" style="display:none">
+
+        <p id="correct-Answers">Correct: </p>
+        <p id="incorrect-Answers">Incorrect: </p>
+        <p id="unanswers">Unanswers: </p>
+
+    </div>
+
+    <script type="text/javascript" src="assets/javascript/app.js">
+    </script>
+</body>
+
+</html>
