@@ -8,95 +8,106 @@
     <title>Soccer Trivia</title>
 </head>
 
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link type="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link href="sticky-footer.css" rel="stylesheet">
 
 <body>
+    <!-- Important container for the static background -->
     <div id="main-background">
         <div id="container">
+            <div id="container-background">
+                <div id="questions">
+                    <header id="Header">Soccer Trivia</header>
+
+                    <h1 id="time-remaining">Time Remaining: <span id="timer">00:00</span></h1>
+
+                    <div class="questions-div">
+                        <p>Who has more Soccer World Cups in all history?</p>
+                        <input class="incorrect" type="radio" name="firstquestion" value="1">Germany
+                        <input class="correct" type="radio" name="firstquestion" value="2">Brasil
+                        <input class="incorrect" type="radio" name="firstquestion" value="3">Italy
+                        <input class="incorrect" type="radio" name="firstquestion" value="4">Argentina
+                    </div>
+                    <div class="questions-div">
+                        <p>Where will the 2026 World Cup be held?</p>
+                        <input class="incorrect" type="radio" name="secondquestion" value="1">Rusia
+                        <input class="incorrect" type="radio" name="secondquestion" value="2">Qatar
+                        <input class="correct" type="radio" name="secondquestion" value="3">North America
+                        <input class="incorrect" type="radio" name="secondquestion" value="4">USA
+                    </div>
+                    <div class="questions-div">
+                        <p>Which of this teams didn't partecipate on FIFA Russia 2018</p>
+                        <input class="correct" type="radio" name="thirdquestion" value="1">Chile
+                        <input class="incorrect" type="radio" name="thirdquestion" value="2">Panama
+                        <input class="incorrect" type="radio" name="thirdquestion" value="3">Iceland
+                        <input class="incorrect" type="radio" name="thirdquestion" value="4">Saudi Arabia
+                    </div>
+                    <div class="questions-div">
+                        <p>Who was the top scorer of UEFA Euro 2016?</p>
+                        <input class="correct" type="radio" name="forthquestion" value="1">Antoine Griezmann
+                        <input class="incorrect" type="radio" name="forthquestion" value="2">Gareth Bale
+                        <input class="incorrect" type="radio" name="forthquestion" value="3">Alvaro Morata
+                        <input class="incorrect" type="radio" name="forthquestion" value="4">Cristiano Ronaldo
+                    </div>
+                    <div class="questions-div">
+                        <p>Which country was the champions at the world cup 2014?</p>
+                        <input class="incorrect" type="radio" name="fifthquestion" value="1">France
+                        <input class="incorrect" type="radio" name="fifthquestion" value="2">Argentina
+                        <input class="correct" type="radio" name="fifthquestion" value="3">Germany
+                        <input class="incorrect" type="radio" name="fifthquestion" value="4">Brazil
+                    </div>
+                    <div class="questions-div">
+                        <p>Who was the world cup official mascots in South Africa 2010?</p>
+                        <input class="incorrect" type="radio" name="sixthquestion" value="1">Zabivaka
+                        <input class="incorrect" type="radio" name="sixthquestion" value="2">Ato, Kaz and Nik
+                        <input class="incorrect" type="radio" name="sixthquestion" value="3">Fuleco
+                        <input class="correct" type="radio" name="sixthquestion" value="4">Zakumi
+                    </div>
+                    <div class="questions-div">
+                        <p>Which country won the first World Cup?</p>
+                        <input class="incorrect" type="radio" name="seventhquestion" value="1">Peru
+                        <input class="incorrect" type="radio" name="seventhquestion" value="2">Italia
+                        <input class="incorrect" type="radio" name="seventhquestion" value="3">Francia
+                        <input class="correct" type="radio" name="seventhquestion" value="4">Uruguay
+                    </div>
+                    <div class="questions-div">
+                        <p>Who holds the record for most goals in a single World Cup?</p>
+                        <input class="incorrect" type="radio" name="eigthquestion" value="1">Ronaldo Nazario
+                        <input class="correct" type="radio" name="eigthquestion" value="2">Miroslav Klose
+                        <input class="incorrect" type="radio" name="eigthquestion" value="3">Gerd Muller
+                        <input class="incorrect" type="radio" name="eigthquestion" value="4">Pele
+                    </div>
+
+                    <div class="submit">
+                        <button>Submit</button>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <div id="container-background-answers">
+        <div id="cointainer-Answers" style="display:none">
 
             <header id="Header">Soccer Trivia</header>
 
-            <h1 id="time-remaining">Time Remaining: <span id="timer">00:00</span></h1>
+            <div id="random-pick"></div>
 
-            <div id="questions">
-                <br>
-                <p>First Question</p>
+            <p id="correct-Answers">Correct: </p>
+            <p id="incorrect-Answers">Incorrect: </p>
+            <p id="unanswers">Unanswers: </p>
 
-                <input class="incorrect" type="radio" name="firstquestion" value="1">1
-                <input class="correct" type="radio" name="firstquestion" value="2">1
-                <input class="incorrect" type="radio" name="firstquestion" value="3">1
-                <input class="incorrect" type="radio" name="firstquestion" value="4">1
-
-                <br>
-                <p>Second Question</p>
-
-                <input class="incorrect" type="radio" name="secondquestion" value="1">1
-                <input class="incorrect" type="radio" name="secondquestion" value="2">1
-                <input class="correct" type="radio" name="secondquestion" value="3">1
-                <input class="incorrect" type="radio" name="secondquestion" value="4">1
-
-                <br>
-                <p>Third Question</p>
-
-                <input class="correct" type="radio" name="thirdquestion" value="1">1
-                <input class="incorrect" type="radio" name="thirdquestion" value="2">1
-                <input class="incorrect" type="radio" name="thirdquestion" value="3">1
-                <input class="incorrect" type="radio" name="thirdquestion" value="4">1
-                <br>
-
-                <p>Forth Question</p>
-
-                <input class="correct" type="radio" name="forthquestion" value="1">1
-                <input class="incorrect" type="radio" name="forthquestion" value="2">1
-                <input class="incorrect" type="radio" name="forthquestion" value="3">1
-                <input class="incorrect" type="radio" name="forthquestion" value="4">1
-                <br>
-
-                <p>Fifth Question</p>
-
-                <input class="incorrect" type="radio" name="fifthquestion" value="1">1
-                <input class="incorrect" type="radio" name="fifthquestion" value="2">1
-                <input class="correct" type="radio" name="fifthquestion" value="3">1
-                <input class="incorrect" type="radio" name="fifthquestion" value="4">1
-                <br>
-
-                <p>Sixth Question</p>
-
-                <input class="incorrect" type="radio" name="sixthquestion" value="1">1
-                <input class="incorrect" type="radio" name="sixthquestion" value="2">1
-                <input class="incorrect" type="radio" name="sixthquestion" value="3">1
-                <input class="correct" type="radio" name="sixthquestion" value="4">1
-                <br>
-                <p>Seventh Question</p>
-
-                <input class="incorrect" type="radio" name="seventhquestion" value="1">1
-                <input class="incorrect" type="radio" name="seventhquestion" value="2">1
-                <input class="incorrect" type="radio" name="seventhquestion" value="3">1
-                <input class="correct" type="radio" name="seventhquestion" value="4">1
-                <br>
-                <p>Eigth Question</p>
-
-                <input class="incorrect" type="radio" name="eigthquestion" value="1">1
-                <input class="correct" type="radio" name="eigthquestion" value="2">1
-                <input class="incorrect" type="radio" name="eigthquestion" value="3">1
-                <input class="incorrect" type="radio" name="eigthquestion" value="4">1
-                <br>
-
-            </div>
 
         </div>
-    </div>
-
-
-    <div id="cointainer-Answers" style="display:none">
-
-        <p id="correct-Answers">Correct: </p>
-        <p id="incorrect-Answers">Incorrect: </p>
-        <p id="unanswers">Unanswers: </p>
-
     </div>
 
     <script type="text/javascript" src="assets/javascript/app.js">

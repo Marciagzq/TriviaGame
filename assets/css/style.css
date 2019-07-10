@@ -1,0 +1,112 @@
+
+#main-background{
+    background-image: url(https://wallpaperplay.com/walls/full/e/6/1/307818.jpg);
+    /* background-image: url(https://wallpapercave.com/wp/D7iqNlL.jpg); */
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#timer{
+    font-size: 34px;
+    font-weight: 620;
+}
+
+#container-background{
+    margin-bottom: 200px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 22px;
+    background: white;
+    opacity: 0.7;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.questions-div{
+    margin: 100px;
+}
+
+p{
+    font-size:30px;
+    color: #fd3f68; 
+}
+
+#questions{
+    font-size: 24px;
+    color: #fc5478; 
+}
+
+header{
+    font-size: 50px;
+    letter-spacing: 8px;
+}
+
+#time-remaining{
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(151, 235, 123, .2);
+    font:black;
+    font-weight: 620;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    display
+}
+
+.correct,
+.incorrect{
+margin-left: 33px;
+}
+
+input{
+    margin-right: 10px;
+}
+
+button{
+    border-radius: 3px;
+    background-color: rgb(104, 176, 55);
+    border: rgb(104, 176, 55);
+    font-size: 20px;
+    width: 140px;
+    height: 40px;
+    color: pink;
+}
+
+#cointainer-Answers{
+    margin-bottom: 200px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 22px;
+    background: white;
+    opacity: 0.7;
+    padding-top: 50px;
+    padding-bottom: 1000px;
+    height: 100%;
+}
+
+
+#container-background-answers{
+       background-image: url(https://wallpaperplay.com/walls/full/e/6/1/307818.jpg);
+    /* background-image: url(https://wallpapercave.com/wp/D7iqNlL.jpg); */
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+
+#correct-Answers,
+#incorrect-Answers,
+#unanswers{
+    margin-top: 30px;
+    font-size: 40px;
+}
