@@ -1,15 +1,42 @@
-# TriviaGame
-Soccer Trivia!
+#University of Central Florida
+###Coding Bootcamp 
+#### Full Stack Developer 
+![alt text](https://portfolium1.cloudimg.io/s/crop/128x128/https://cdn.portfolium.com/ugcs3%2Fedu%2F9tDF4wvqRdewUvBbZ97x_PegasusBrightGold150x150.png "Logo Title Text 1")
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-Hello Everybody!
+## TRIVIA
+### Soccer World Cup trivia
 
-The website presented is a Soccer Trivia, you will have time to proof some of the most basic but important facts of the Soccer world.
-At the beggining of the game, you will have an alert as an introduction, basically whenever you decided to click "Ok" the game will start and from there, you will have 2 minutes to choose the answers you think are correct by clicking the respective button.
+
+#####What is this Trivia so cool?
+
+At the beginning of the game, the page will alert a message as an introduction, basically whenever you decided to click "Ok" the game will start and from there, you will have 2 minutes to choose the answers you think are correct by clicking the respective button.
+
 Once you run out of time, The page will display your score. 
-You may be able to re-start the game by refreshing the page (F5 or on refresh button on the top of the page.)
 
-Contributor:
-All the user can propose new information or suggest any channge by sending me a email: marcia.gzq@gmail.com, every opinion or suggestion is very important for me as a beginner developer and crucial for my proffesional growth. 
 
+#####What Language?
+
+*  Libraries and language used for accomplished this assignment 
+
+    * HTML
+    * CSS
+    * Javascript
+    * Jquery
+
+
+To learn more about JQuery, click [here!](https://api.jquery.com/)
+
+
+
+##[My Web application](https://marciagzq.github.io/TriviaGame/.)
+
+
+![This](\images\trivia.png)
+
+*If you are interested only in my code, [click me!](https://github.com/Marciagzq/LIRI_Bot/blob/master/liri.js)*
+
+*If any suggestion, do not hesitate to contact me on my personal email: marcia.gzq@gmail.com
+I would appreciate any comment, I know it may be very beneficial on my professional growth.*
 
 
