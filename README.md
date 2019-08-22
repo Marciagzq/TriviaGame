@@ -32,7 +32,7 @@ To learn more about JQuery, click [here!](https://api.jquery.com/)
 ##[My Web application](https://marciagzq.github.io/TriviaGame/.)
 
 
-![This](\images\trivia.png)
+![This](./images/train.png)
 
 *If you are interested only in my code, [click me!](https://github.com/Marciagzq/LIRI_Bot/blob/master/liri.js)*
 
