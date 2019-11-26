@@ -1,5 +1,5 @@
-#University of Central Florida
-###Coding Bootcamp 
+# University of Central Florida
+### Coding Bootcamp 
 #### Full Stack Developer 
 ![alt text](https://portfolium1.cloudimg.io/s/crop/128x128/https://cdn.portfolium.com/ugcs3%2Fedu%2F9tDF4wvqRdewUvBbZ97x_PegasusBrightGold150x150.png "Logo Title Text 1")
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -8,14 +8,14 @@
 ### Soccer World Cup trivia
 
 
-#####What is this Trivia so cool?
+##### What is this Trivia so cool?
 
 At the beginning of the game, the page will alert a message as an introduction, basically whenever you decided to click "Ok" the game will start and from there, you will have 2 minutes to choose the answers you think are correct by clicking the respective button.
 
 Once you run out of time, The page will display your score. 
 
 
-#####What Language?
+##### What Language?
 
 *  Libraries and language used for accomplished this assignment 
 
@@ -29,7 +29,7 @@ To learn more about JQuery, click [here!](https://api.jquery.com/)
 
 
 
-##[My Web application](https://marciagzq.github.io/TriviaGame/.)
+## [My Web application](https://marciagzq.github.io/TriviaGame/.)
 
 
 ![This](./images/trivia.png)
